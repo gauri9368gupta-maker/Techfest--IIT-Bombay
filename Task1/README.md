@@ -16,13 +16,10 @@ https://gauri9368gupta-maker.github.io/Techfest--IIT-Bombay/Task1/cyborg.html?ut
 
 ## 📸 Preview
 
-![CYBER//X Preview](<img width="1877" height="901" alt="Screenshot 2026-08-29 150224" src="https://github.com/user-attachments/assets/0cebf255-725e-4551-8379-ed43320aae72" />)
-![CYBER//X Preview](<img width="1833" height="901" alt="Screenshot 2026-08-29 150237" src="https://github.com/user-attachments/assets/513f6104-70b7-4d46-9b54-7e2bb85f73a0" />
-)
-![CYBER//X Preview](<img width="1876" height="911" alt="Screenshot 2026-08-29 150249" src="https://github.com/user-attachments/assets/826c8dea-31ce-4662-872c-735baa66a75c" />
-)
-![CYBER//X Preview](<img width="1885" height="906" alt="Screenshot 2026-08-29 150300" src="https://github.com/user-attachments/assets/8e009f6d-df02-4c96-8094-de9b2476ef9a" />
-)
+![CYBER//X Preview](Task1/images/Screenshot 2026-08-29 150224.png)
+![CYBER//X Preview](images/Screenshot 2026-08-29 150224.png)
+![CYBER//X Preview]()
+![CYBER//X Preview]()
 
 ---
 
