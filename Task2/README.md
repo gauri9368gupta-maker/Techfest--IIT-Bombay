@@ -16,7 +16,11 @@ https://gauri9368gupta-maker.github.io/Techfest--IIT-Bombay/Task2/?utm_source=ch
 
 ## 📸 Preview
 
-![DRIFT° Preview](images/preview.png)
+![DRIFT° Preview](images/image1.png)
+![DRIFT° Preview](images/image2.png)
+![DRIFT° Preview](images/image3.png)
+![DRIFT° Preview](images/image4.png)
+![DRIFT° Preview](images/image5.png)
 
 ---
 
