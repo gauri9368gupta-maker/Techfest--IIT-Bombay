@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS 2099 — TechFest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-mark">NEXUS<span>2099</span></div>
+    <div class="loader-line"><i></i></div>
+    <small>INITIALIZING EXPERIENCE</small>
+  </div>
+
+  <div class="noise"></div>
+  <div class="cursor"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo">NEXUS<span>2099</span></a>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#arena">Arena</a>
+      <a href="#schedule">Schedule</a>
+    </nav>
+    <button class="ticket" data-scroll="#register">GET PASS ↗</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid"></div>
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">ANNUAL TECHNOLOGY FEST / 18—20 OCT 2099</p>
+        <h1>BUILD<br><span>BEYOND</span><br>LIMITS.</h1>
+        <p class="lead">Three days of AI, robotics, immersive worlds and ideas that refuse to stay on the drawing board.</p>
+        <div class="actions">
+          <button class="primary" data-scroll="#experience">ENTER THE FEST ↘</button>
+          <button class="ghost" data-scroll="#schedule">VIEW PROGRAM</button>
+        </div>
+      </div>
+
+      <div class="scene" id="scene">
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+        <div class="core" id="core">
+          <div class="core-inner"></div>
+          <span>NX</span>
+        </div>
+        <div class="orbit orbit-1"><b></b></div>
+        <div class="orbit orbit-2"><b></b></div>
+        <div class="orbit orbit-3"><b></b></div>
+        <div class="scene-label label-1">AI / 01</div>
+        <div class="scene-label label-2">ROBOTICS / 02</div>
+        <div class="scene-label label-3">XR / 03</div>
+      </div>
+
+      <div class="scroll-word">SCROLL TO DESCEND ↓</div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="section-intro">
+        <p class="eyebrow">01 / THE EXPERIENCE</p>
+        <h2>Not a conference.<br><span>A playground.</span></h2>
+        <p>Move through a living interface built around the things shaping tomorrow.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card tilt">
+          <div class="card-number">01</div>
+          <div class="card-art ai-art"><i></i><i></i><i></i></div>
+          <p>01 — INTELLIGENCE</p>
+          <h3>AI LAB</h3>
+          <span>Train. Break. Rebuild.</span>
+        </article>
+
+        <article class="card tilt">
+          <div class="card-number">02</div>
+          <div class="card-art bot-art"><i></i><i></i></div>
+          <p>02 — MACHINES</p>
+          <h3>ROBOT ARENA</h3>
+          <span>Steel meets instinct.</span>
+        </article>
+
+        <article class="card tilt">
+          <div class="card-number">03</div>
+          <div class="card-art xr-art"><i></i></div>
+          <p>03 — IMMERSION</p>
+          <h3>XR DISTRICT</h3>
+          <span>Step outside reality.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="arena" class="arena">
+      <div class="arena-bg"></div>
+      <div class="arena-copy">
+        <p class="eyebrow">02 / THE ARENA</p>
+        <h2>ENTER<br><span>THE CORE.</span></h2>
+        <p>Tap, drag and orbit the central system. Every interaction changes the energy field.</p>
+        <div class="stat-row">
+          <div><b>42</b><small>EXHIBITS</small></div>
+          <div><b>18</b><small>CHALLENGES</small></div>
+          <div><b>03</b><small>DAYS</small></div>
+        </div>
+      </div>
+
+      <div class="interactive-core" id="interactiveCore">
+        <div class="energy e1"></div>
+        <div class="energy e2"></div>
+        <div class="energy e3"></div>
+        <div class="reactor">
+          <span>INTERACT</span>
+          <strong>∞</strong>
+        </div>
+        <div class="node n1">AI</div>
+        <div class="node n2">XR</div>
+        <div class="node n3">BOT</div>
+        <div class="node n4">BIO</div>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+      <div class="schedule-head">
+        <p class="eyebrow">03 / THE PROGRAM</p>
+        <h2>Three days.<br><span>Zero limits.</span></h2>
+      </div>
+
+      <div class="timeline">
+        <article><time>DAY 01</time><div><b>OPEN THE FUTURE</b><p>Opening keynote · AI keynote · Future founders</p></div><strong>09:00</strong></article>
+        <article><time>DAY 02</time><div><b>BREAK THE SYSTEM</b><p>Robot battles · Hack sprint · XR night</p></div><strong>11:30</strong></article>
+        <article><time>DAY 03</time><div><b>BUILD WHAT'S NEXT</b><p>Demo day · Awards · Closing signal</p></div><strong>14:00</strong></article>
+      </div>
+    </section>
+
+    <section id="register" class="register">
+      <div class="register-glow"></div>
+      <p class="eyebrow">FINAL TRANSMISSION</p>
+      <h2>THE FUTURE<br>IS <span>WAITING.</span></h2>
+      <p>Bring your curiosity. We'll handle the electricity.</p>
+      <button class="primary" id="pass">CLAIM YOUR PASS ↗</button>
+      <div id="success" class="success">ACCESS GRANTED — SEE YOU AT NEXUS 2099.</div>
+    </section>
+  </main>
+
+  <footer>
+    <span>NEXUS 2099 / TECHFEST</span>
+    <span>BUILD BEYOND LIMITS</span>
+    <span>18—20 OCT 2099</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
