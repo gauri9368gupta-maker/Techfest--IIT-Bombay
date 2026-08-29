@@ -10,7 +10,7 @@ The website transforms ordinary scrolling into a digital journey where different
 
 ## 🚀 Live Demo
 
-🔗 **Live Demo:** [Add your deployed website link here]
+https://gauri9368gupta-maker.github.io/Techfest--IIT-Bombay/Task2/?utm_source=chatgpt.com
 
 ---
 
