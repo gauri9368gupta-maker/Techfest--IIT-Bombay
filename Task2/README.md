@@ -6,7 +6,12 @@ A futuristic and immersive **TechFest landing page** built around the theme **‚Ä
 https://gauri9368gupta-maker.github.io/Techfest--IIT-Bombay/Task2/?utm_source=chatgpt.com
 
 ## Preview 
-
+![CYBER//X Preview](images/ss1.png)
+![CYBER//X Preview](images/ss2.png)
+![CYBER//X Preview](images/ss3.png)
+![CYBER//X Preview](images/ss4.png)
+![CYBER//X Preview](images/ss5.png)
+![CYBER//X Preview](images/ss6.png)
 
 ## üåê Overview
 
