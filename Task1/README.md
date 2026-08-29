@@ -16,7 +16,7 @@ https://gauri9368gupta-maker.github.io/Techfest--IIT-Bombay/Task1/cyborg.html?ut
 
 ## 📸 Preview
 
-![CYBER//X Preview](images/Screenshot 2026-08-29 150224.png)
+![CYBER//X Preview](images/img1.png)
 
 
 ---
