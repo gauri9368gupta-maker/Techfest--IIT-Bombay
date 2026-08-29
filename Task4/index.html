@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IDEATE is a creative innovation platform for ideas, creators, tech events, and turning bold concepts into meaningful solutions."
+    />
+    <title>IDEATE — Where ideas become reality</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="grid-overlay"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="navbar" id="top">
+      <div class="container nav-inner">
+        <a href="#home" class="logo">IDEATE</a>
+
+        <nav class="nav-menu" aria-label="Main navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#ideas" class="nav-link">Ideas</a>
+          <a href="#process" class="nav-link">Process</a>
+          <a href="#events" class="nav-link">Events</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Submit an Idea</a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal fade-up">
+            <span class="eyebrow">WHERE IDEAS BECOME REALITY</span>
+            <h1>IDEATE.<br />CREATE.<br />INNOVATE.</h1>
+            <p>
+              Great ideas begin with a thought. We help turn bold ideas into
+              meaningful innovations.
+            </p>
+            <div class="hero-actions">
+              <a href="#ideas" class="btn btn-primary">Explore Ideas</a>
+              <a href="#contact" class="btn btn-secondary">Submit Your Idea</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal scale-in">
+            <div class="orb-wrap">
+              <div class="orb-core"></div>
+              <div class="ring ring-one"></div>
+              <div class="ring ring-two"></div>
+              <div class="ring ring-three"></div>
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <div class="float-card card-one">CREATE</div>
+              <div class="float-card card-two">THINK</div>
+              <div class="float-card card-three">BUILD</div>
+              <div class="float-card card-four">IMPACT</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">SCROLL TO EXPLORE <span>↓</span></div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <span class="eyebrow">ABOUT IDEATE</span>
+            <h2>Ideas are the beginning of everything.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy reveal fade-up">
+              <p>
+                IDEATE is a space built for thinkers, creators, developers,
+                designers, entrepreneurs, and problem solvers. Share your ideas,
+                collaborate with others, and transform imagination into innovation.
+              </p>
+            </div>
+
+            <div class="stats-grid reveal fade-up">
+              <div class="stat-item">
+                <span class="stat-value" data-target="500">0</span>
+                <span class="stat-label">Ideas Submitted</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" data-target="120">0</span>
+                <span class="stat-label">Creators</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" data-target="50">0</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value" data-target="25">0</span>
+                <span class="stat-label">Innovations Launched</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ideas section" id="ideas">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <span class="eyebrow">COMMUNITY</span>
+            <h2>Ideas Worth Exploring</h2>
+          </div>
+
+          <div class="idea-grid">
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">AI / EDUCATION</span>
+              <h3>AI Study Assistant</h3>
+              <p>
+                An intelligent learning companion that adapts to every student's
+                learning style.
+              </p>
+              <div class="idea-meta">
+                <span>By Maya Chen</span>
+                <button class="card-arrow" aria-label="Explore AI Study Assistant">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">SUSTAINABILITY</span>
+              <h3>Green City</h3>
+              <p>
+                Using smart technology to build cleaner and more sustainable
+                cities.
+              </p>
+              <div class="idea-meta">
+                <span>By Priya Shah</span>
+                <button class="card-arrow" aria-label="Explore Green City">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">HEALTH TECH</span>
+              <h3>HealthSync</h3>
+              <p>
+                A connected platform designed to simplify personal healthcare
+                management.
+              </p>
+              <div class="idea-meta">
+                <span>By Adrian Lee</span>
+                <button class="card-arrow" aria-label="Explore HealthSync">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">TRANSPORT</span>
+              <h3>Future Mobility</h3>
+              <p>
+                Reimagining transportation through intelligent and sustainable
+                mobility.
+              </p>
+              <div class="idea-meta">
+                <span>By Omar Khan</span>
+                <button class="card-arrow" aria-label="Explore Future Mobility">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">CLIMATE TECH</span>
+              <h3>Carbon Loop</h3>
+              <p>
+                Turning waste streams into community-powered circular systems for
+                energy and materials.
+              </p>
+              <div class="idea-meta">
+                <span>By Nina Patel</span>
+                <button class="card-arrow" aria-label="Explore Carbon Loop">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="idea-card reveal fade-up">
+              <span class="idea-category">CREATIVE TECH</span>
+              <h3>Dream Studio</h3>
+              <p>
+                A collaborative environment for designers and builders to prototype
+                ideas in real time.
+              </p>
+              <div class="idea-meta">
+                <span>By Ethan Cole</span>
+                <button class="card-arrow" aria-label="Explore Dream Studio">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section" id="process">
+        <div class="container">
+          <div class="section-heading reveal fade-up">
+            <span class="eyebrow">PROCESS</span>
+            <h2>From Thought to Impact</h2>
+          </div>
+
+          <div class="process-steps reveal fade-up">
+            <div class="step-item">
+              <span class="step-no">01</span>
+              <h3>THINK</h3>
+              <p>Identify a problem worth solving.</p>
+            </div>
+            <div class="step-item">
+              <span class="step-no">02</span>
+              <h3>IDEATE</h3>
+              <p>Turn your thoughts into a clear concept.</p>
+            </div>
+            <div class="step-item">
+              <span class="step-no">03</span>
+              <h3>BUILD</h3>
+              <p>Create, test, and improve your solution.</p>
+            </div>
+            <div class="step-item">
+              <span class="step-no">04</span>
+              <h3>IMPACT</h3>
+              <p>Take your innovation into the real world.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="generator section" id="generator">
+        <div class="container generator-inner reveal fade-up">
+          <div class="generator-copy">
+            <span class="eyebrow">IDEA LAB</span>
+            <h2>Need an Idea? Let's Generate One.</h2>
+          </div>
+
+          <div class="generator-panel">
+            <div class="generator-controls">
+              <label for="idea-category" class="sr-only">Select category</label>
+              <select id="idea-category" name="idea-category">
+                <option value="Technology">Technology</option>
+                <option value="Education">Education</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Environment">Environment</option>
+                <option value="Business">Business</option>
+                <option value="Entertainment">Entertainment</option>
+              </select>
+              <button class="btn btn-primary generator-btn" type="button">
+                GENERATE IDEA
+              </button>
+            </div>
+
+            <div class="idea-output" aria-live="polite">
+              <div class="output-loader">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p class="output-text">
+                "Build an AI-powered personal productivity assistant that
+                automatically organizes tasks based on urgency and energy levels."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase section" id="events">
+        <div class="container">
+          <div class="showcase-header reveal fade-up">
+            <div>
+              <span class="eyebrow">INNOVATION SHOWCASE</span>
+              <h2>Successful ideas in motion</h2>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn prev-btn" aria-label="Previous project">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="carousel-btn next-btn" aria-label="Next project">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="project-carousel reveal fade-up">
+            <div class="project-track">
+              <article class="project-card project-a">
+                <div class="project-overlay"></div>
+                <div class="project-content">
+                  <span class="project-tag">AI / HEALTH</span>
+                  <h3>NeuroNest</h3>
+                  <p>Personalized support systems for mental wellness and focus.</p>
+                  <button class="project-link">Explore</button>
+                </div>
+              </article>
+
+              <article class="project-card project-b">
+                <div class="project-overlay"></div>
+                <div class="project-content">
+                  <span class="project-tag">SUSTAINABILITY</span>
+                  <h3>SolarFlow</h3>
+                  <p>Community-based solar intelligence for smarter energy use.</p>
+                  <button class="project-link">Explore</button>
+                </div>
+              </article>
+
+              <article class="project-card project-c">
+                <div class="project-overlay"></div>
+                <div class="project-content">
+                  <span class="project-tag">EDTECH</span>
+                  <h3>SkillSpark</h3>
+                  <p>Interactive learning experiences rooted in real-world projects.</p>
+                  <button class="project-link">Explore</button>
+                </div>
+              </article>
+
+              <article class="project-card project-d">
+                <div class="project-overlay"></div>
+                <div class="project-content">
+                  <span class="project-tag">TRANSPORT</span>
+                  <h3>RouteWave</h3>
+                  <p>Optimized mobility planning for cities and commuters.</p>
+                  <button class="project-link">Explore</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="container">
+          <div class="cta-panel reveal fade-up">
+            <span class="eyebrow">START NOW</span>
+            <h2>Your next big idea could start here.</h2>
+            <p>Don't wait for the perfect moment. Start with an idea.</p>
+            <a href="#contact" class="btn btn-primary">SUBMIT YOUR IDEA →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container contact-inner">
+          <div class="contact-copy reveal fade-up">
+            <span class="eyebrow">CONTACT</span>
+            <h2>Let's Build Something Meaningful.</h2>
+          </div>
+
+          <form class="contact-form reveal fade-up" novalidate>
+            <div class="field-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell us about your idea..."
+                required
+              ></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="success-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <a href="#home" class="logo">IDEATE</a>
+          <p class="tagline">Think beyond the obvious.</p>
+        </div>
+
+        <div class="footer-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="Twitter/X">Twitter/X</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 IDEATE. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
